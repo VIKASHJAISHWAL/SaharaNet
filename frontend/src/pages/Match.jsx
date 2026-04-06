@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Activity, Star } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://saharanet.onrender.com/api';
 
 const Match = () => {
   const [needs, setNeeds] = useState([]);

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Sparkles, CheckCircle2 } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://saharanet.onrender.com/api';
 
 const Wards = [
   "Naini - Ward 7",

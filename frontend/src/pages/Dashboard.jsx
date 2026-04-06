@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://saharanet.onrender.com/api';
 
 const Dashboard = () => {
   const [stats, setStats] = useState({ activeNeeds: 0, volunteers: 0, tasksMatched: 0, coverageRate: '0%' });
